@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 0 170px;
+    justify-content: center;
+    margin-top: 40px;
+    padding-left: 25px;
+}
+
+.nav-logo {
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+    list-style-type: none;
+}
+
+nav ul li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #150101;
+
+    opacity: 0.6;
+
+}
+
+nav ul li:hover {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    cursor: pointer;
+
+    color: #D23166;
+}
+
+nav ul li:first-child {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #D23166;
+}
+
+nav .btn a {
+    color: white;
+
+    background: #D23166;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FAFAFA;
+    padding: 15px 43px;
+
+}
+
+.hero {
+    background: rgba(242, 206, 218, 0.3);
+    height: 820px;
+    padding: 120px 150px;
+    margin-top: -15px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 90px;
+    padding-left: 40px;
+}
+
+.hero-left {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hero-content .head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+
+    color: #0F0101;
+}
+
+.hero-content h1 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 53px;
+    line-height: 120.5%;
+    /* or 69px */
+    margin-top: 8px;
+    margin-bottom: 35px;
+
+    color: #0F0101;
+
+    opacity: 0.9;
+}
+
+.hero-content .ice-cream {
+    color: #D23166;
+}
+
+.hero-content p {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    /* or 150% */
+
+    margin-bottom: 50px;
+    color: #0F0101;
+
+    opacity: 0.6;
+}
+
+.hero-content .btn a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #FAFAFA;
+    background: #D64374;
+border-radius: 5px;
+padding: 15px 42px;
+}
+
+.services {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.service-box-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0 60px;
+    justify-content: first baseline;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 220px;
+}
+
+.service-box h4 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height */
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+    color: #000000;
+}
+
+.service-box p {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 0.6;
+}
+
+
+
+
+
+.hero-2 {
+    background: rgba(242, 206, 218, 0.3);
+    min-height: 504px;
+}
+
+.hero-2-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 40px;
+    margin-left: 30px;
+}
+
+.hero-2-left {
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hero-2-content .head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+
+    color: #0F0101;
+}
+
+.hero-2-content h2 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 53px;
+    line-height: 120.5%;
+    /* or 69px */
+    margin-top: 8px;
+    margin-bottom: 35px;
+
+    color: #0F0101;
+
+    opacity: 0.9;
+}
+
+
+.hero-2-content p {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    /* or 150% */
+
+    margin-bottom: 50px;
+    color: #0F0101;
+
+    opacity: 0.6;
+}
+
+.hero-2-content .btn a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #FAFAFA;
+    background: #D64374;
+border-radius: 5px;
+padding: 15px 42px;
+}
+
+.hero-3{
+    margin-top: 130px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.products ul{
+    display: flex;
+    gap: 0 40px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+.products ul li{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+
+opacity: 0.6;
+}
+
+.products ul li:first-child{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+opacity: 1;
+border-bottom: 3px solid #D64374;;
+}
+.products ul li:hover{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 1;
+    border-bottom: 3px solid #D64374;
+    cursor: pointer;
+}
+
+.products h2{
+    font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 600;
+font-size: 44.2px;
+line-height: 61px;
+/* identical to box height */
+
+margin-bottom: 65px;
+color: #150101;
+}
+
+.products-box-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px 0px;
+}
+.products-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 100px;
+}
+.products-right{
+    max-width: 420px;
+}
+.products-right h3{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+.products-right p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+margin-top: 11px;
+margin-bottom: 35px;
+
+color: #000000;
+
+opacity: 0.7;
+}
+.products-right .first-price{
+    font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.products-right .sec-price{
+    font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+text-decoration-line: line-through;
+
+color: #000000;
+
+opacity: 0.7;
+}
+
+.products-right .btn a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 55px;
+    color: #FAFAFA;
+    background: #D64374;
+border-radius: 5px;
+padding: 15px 42px;
+}
+.products-right .btn{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.products-box-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 100px;
+}
+.products-2-left{
+    max-width: 420px;
+}
+.products-2-left h3{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+.products-2-left p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+margin-top: 11px;
+margin-bottom: 35px;
+
+color: #000000;
+
+opacity: 0.7;
+}
+.products-2-left .first-price{
+    font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.products-2-left .sec-price{
+    font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+text-decoration-line: line-through;
+
+color: #000000;
+
+opacity: 0.7;
+}
+
+.products-2-left .btn a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 55px;
+    color: #FAFAFA;
+    background: #D64374;
+border-radius: 5px;
+padding: 15px 42px;
+}
+.products-2-left .btn{
+    margin-top: 20px;
+}
+
+
+.products-user-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 45px 0;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 15px;
+}
+.user-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.user-right p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+}
+.user-right span{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+opacity: 0.7;
+}
+.user-comment{
+    max-width: 322px;
+    display: flex;
+    gap: 0 15px;
+}
+
+.products-user-left nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 25px;
+    margin-top: 0;
+}
